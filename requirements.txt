@@ -1,2 +1,12 @@
 google-generativeai
 streamlit
+  *   Agar uske alawa kuch aur extra characters ya galat spelling hai, toh use hata do.
+
+3.  **Streamlit ko "Force" karo:**
+    *   GitHub par koi bhi ek chhoti si file (jaise `README.md`) ya `app.py` ko edit karo aur save/commit kar do.
+    *   Isse GitHub "update" hota hai aur Streamlit ko signal milta hai ki code change hua hai.
+    *   Phir Streamlit dashboard par jaakar **"Reboot"** button dabao.
+
+**Ek sawal:** Kya aapne `requirements.txt` mein `google-generativeai` ki spelling bilkul aisi hi likhi hai? Ismein ek hyphen `-` hona chahiye.
+
+Ek baar check karke batao, kya ab bhi wahi error aa raha hai ya error ka message change hua hai?
