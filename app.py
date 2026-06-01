@@ -1,11 +1,11 @@
 import os
-from google import genai
+from google.genai import Client
 
-# Apni API key yahan se uthaye
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+# API Key setup
+client = Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def generate():
-    # Yahan apna prompt likhen
+    # Naye SDK ka sahi syntax
     response = client.models.generate_content(
         model="gemini-2.0-flash",
         contents="Hello, how are you?"
